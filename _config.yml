@@ -665,9 +665,15 @@ translate:
 
 #ICP备案信息尾部显示
 icp:
-  enable: false
-  url: https://baidu.com
-  text: 这是一个备案信息
+  enable: true
+  url: https://beian.miit.gov.cn/
+  text: 苏ICP备2023020900号
+
+upyun:
+  enable: true
+  logourl: https://cdn.jsdelivr.net/gh/xxlgenius/blog_img/2023/07/04/8fa59409ece2a4491180ed1dad9f459b.png
+  url: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
+  text: 提供CDN支持
 
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
