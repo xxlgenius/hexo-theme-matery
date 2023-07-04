@@ -312,11 +312,11 @@ mySkills:
 # If you don't want to display this `Gallery` content, you can deactivate or delete this configuration.
 # 在“关于”页面配置"我的相册"图片，如果你不需要这些信息则可以将其设置为不激活或者将其删除.
 myGallery:
-  enable: true
+  enable: false
   data:
-    - /medias/featureimages/0.jpg
-    - /medias/featureimages/1.jpg
-    - /medias/featureimages/2.jpg
+    - /medias/images/01.jpg
+    - /medias/images/02.jpg
+    - /medias/images/03.jpg
 
 # Whether to display post-calender in the `archive` page
 # 设置在归档页面中是否显示'文章日历'控件
@@ -673,7 +673,7 @@ upyun:
   enable: true
   logourl: https://cdn.jsdelivr.net/gh/xxlgenius/blog_img/2023/07/04/8fa59409ece2a4491180ed1dad9f459b.png
   url: https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral
-  text: 提供CDN支持
+  #text: 提供CDN支持
 
 # CDN访问加速 
 # 第一次使用本功能，一定要先配置url，再`hexo cl && hexo g && hexo d`部署到GitHub的仓库，注意！必须是GitHub的仓库！
